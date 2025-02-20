@@ -6,6 +6,7 @@
 
 ## HTML 
 
+0. Csatold a stílusfájtl az oldalhoz!
 1. Helyezd el az **a** tageket a megfelelő html5 szemantikus elem közé!
 2. Az article elemben minden h2, img és p taget helyezz el egy-egy section tag közé.
 3. a sectin tageknek adj nevet úgy, hogy ha a linkekre kattintunk, az oldalon belül oda navigáljunk!
