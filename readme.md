@@ -1,8 +1,8 @@
 # HTML, CSS, id, class, grid, reszponzivitás gyakorlása
 
 <img src="minta/asztali.PNG" alt="asztali"><br>
-<img src="minta/tablet.PNG.PNG" alt="asztali"><br>
-<img src="minta/mobil.PNG.PNG" alt="asztali"><br>
+<img src="minta/tablet.PNG" alt="asztali"><br>
+<img src="minta/mobil.PNG" alt="asztali"><br>
 
 ## HTML 
 
