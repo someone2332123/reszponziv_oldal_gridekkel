@@ -1,0 +1,55 @@
+body {
+   
+header {
+    background-color: green;
+    text-transform: uppercase;
+   
+    border-radius: 10px;
+   
+}
+a {
+    color:black;
+  
+    border: 4px solid black;
+    border-radius: 8px;
+    margin: 5px;
+    white-space: nowrap; /* chatgpt kód */
+    display: inline-block; /*chatgpt kód */
+      
+}
+
+nav {
+    margin-bottom: 10px;
+
+}
+* {
+    box-sizing: border-box;
+}
+img {
+ 
+    border: 5px solid black;
+    border-radius: 10px;
+}
+section {
+    margin-top: 10px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: green;
+}
+p {
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+article {
+    
+    gap: 10px;
+}
+#bekezdes_footer {
+    background-color: green;
+    border: 5px solid black;
+    font-size: large;
+}
+
+
