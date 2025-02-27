@@ -1,5 +1,7 @@
 body {
-   
+
+    background-color: greenyellow;
+}
 header {
     background-color: green;
     text-transform: uppercase;
@@ -15,6 +17,8 @@ a {
     margin: 5px;
     white-space: nowrap; /* chatgpt kód */
     display: inline-block; /*chatgpt kód */
+    text-decoration: none;
+    padding: 5px;
       
 }
 
@@ -29,10 +33,12 @@ img {
  
     border: 5px solid black;
     border-radius: 10px;
+    width: 100%;
+    height: auto;
 }
 section {
     margin-top: 10px;
-    padding: 5px;
+    padding: 10px;
     border: 5px solid black;
     border-radius: 15px;
     background-color: green;
@@ -43,13 +49,39 @@ p {
     background-color: greenyellow;
 }
 article {
-    
     gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+@media (max-width: 800px) {
+    article{
+        gap: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+} 
+
+@media (max-width: 500px) {
+    article{
+        gap: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+
 #bekezdes_footer {
     background-color: green;
     border: 5px solid black;
     font-size: large;
 }
 
+header{
+border: 5px black solid;
+text-align: center;
+}
+a:hover{
+    background-color: greenyellow;
+}
 
